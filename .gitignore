@@ -1,0 +1,102 @@
+# =========================
+# macOS
+# =========================
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+.fseventsd
+.VolumeIcon.icns
+
+# =========================
+# Environment variables / Secrets
+# =========================
+.env
+.env.*
+!.env.example
+!.env.sample
+
+# Certificates and private keys
+*.pem
+*.key
+*.p12
+*.pfx
+
+# =========================
+# Docker
+# =========================
+# Local overrides (keep committed templates)
+docker-compose.override.yml
+compose.override.yaml
+compose.override.yml
+
+# Local Docker volumes / data
+docker-data/
+docker-volumes/
+volumes/
+
+# =========================
+# Logs
+# =========================
+*.log
+logs/
+
+# =========================
+# Dependencies
+# =========================
+node_modules/
+vendor/
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# =========================
+# Build outputs
+# =========================
+dist/
+build/
+out/
+target/
+coverage/
+.next/
+.nuxt/
+.cache/
+tmp/
+temp/
+
+# =========================
+# IDEs and editors
+# =========================
+.idea/
+.vscode/
+!.vscode/extensions.json
+!.vscode/settings.json
+*.swp
+*.swo
+*~
+
+# =========================
+# Testing
+# =========================
+.nyc_output/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# =========================
+# OS / temporary files
+# =========================
+*.tmp
+*.bak
+*.orig
+*.rej
+
+# =========================
+# Terraform (if applicable)
+# =========================
+.terraform/
+*.tfstate
+*.tfstate.*
